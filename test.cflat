@@ -1,0 +1,43 @@
+int gi;
+
+
+int sum(int a, int b){
+  return a + b;
+}
+
+
+
+void main(int af, int bf){
+ 
+  int i;
+  bool b;
+  i = sum(1,2);
+  i = i * 10;
+  cout << "i should be 30";
+  cout << i;
+  
+  i = i / 5;
+  cout << "i should be 6";
+  cout << i;
+
+  b = true;
+  if(b == true) {
+    cout << "b is true";
+  }
+  if(!b == false) {
+    cout << "!b is true";
+  }
+  if(b && fale) {
+    cout << "b&&false is wrong";
+  } else {
+    cout << "b&&false is correct";
+  }
+  if(b || fale) {
+    cout << "b||false is correct";
+  } else {
+    cout << "b||false is wrong";
+  }
+
+  return;
+}
+
